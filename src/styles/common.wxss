@@ -1,0 +1,32 @@
+/* 1px解决方案 */
+/* 清除1px */
+/* 清除浮动 */
+.claerfix {
+  zoom: 1;
+}
+.claerfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* 垂直居中 */
+.transform {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* IE 9 */
+  -moz-transform: translate(-50%, -50%);
+  /* Firefox */
+  -webkit-transform: translate(-50%, -50%);
+  /* Safari 和 Chrome */
+  -o-transform: translate(-50%, -50%);
+  /* Opera */
+}
+/* 水平居中 */
+/* 水平垂直居中 */
+/* 超出部分出省略号 */
+/* 多行文本超出部分省略号 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 水平垂直居中 */
